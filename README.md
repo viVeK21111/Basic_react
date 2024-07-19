@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Project details
+In src/ there are couple of components folder which serves as different topics
+
+-> In src/component emailjs with react and fetching weather by giving city.\
+-> src/components2 login session using context.\
+-> src/components3 and src/compnents4 Routing by react.\
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -30,12 +38,6 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
-In src/ there are couple of components folder which serves as different topics
-
--> In src/component emailjs with react and fetching weather by giving city 
--> src/components2 login session using context 
--> src/components3 and src/compnents4 Routing by react
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
