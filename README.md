@@ -31,6 +31,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+In src/ there are couple of components folder which serves as different topics
+
+-> In src/component emailjs with react and fetching weather by giving city 
+-> src/components2 login session using context 
+-> src/components3 and src/compnents4 Routing by react
+
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
