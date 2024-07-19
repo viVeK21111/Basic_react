@@ -7,7 +7,7 @@ In src/ there are couple of components folder which serves as different topics
 
 -> In src/component emailjs with react and fetching weather by giving city.\
 -> src/components2 login session using context.\
--> src/components3 and src/compnents4 Routing by react.\
+-> src/components3 and src/compnents4 Routing by react.
 
 
 ## Available Scripts
