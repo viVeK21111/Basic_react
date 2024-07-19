@@ -1,0 +1,4 @@
+In a Single Page Application (SPA) built with React Router, clicking on a link (such as "About")
+ doesn't cause a full page reload, but it does navigate to a new route, which can feel like 
+navigating to a new page. React Router handles this navigation by updating the URL and rendering
+ the corresponding component without reloading the entire page.

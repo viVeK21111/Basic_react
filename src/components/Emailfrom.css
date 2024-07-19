@@ -1,0 +1,41 @@
+
+.form {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: brown;
+  }
+  
+  .form h2 {
+    padding: 20px;
+  }
+  
+  .form form {
+    padding: 30px;
+    font-size: 25px;
+  }
+  
+  .form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .form input,
+  .form textarea {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+ 
+  
+  .form button {
+    font-size: 30px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+  }
+  .form button:hover {
+    background-color: rgb(12, 104, 12);
+  }
+  
