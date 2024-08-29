@@ -3,11 +3,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Project details
-In src/ there are couple of components folder which serves as different topics
+In src/ there are couple of components folder which serves as different topics <br>
 
--> In src/component emailjs with react and fetching weather by giving city.\
--> src/components2 login session using context.\
--> src/components3 and src/compnents4 Routing by react.
+-> In src/component Lab6(weather fetch) and emailjs components are there <br>
+   To see weather component open: https://vivek21111.github.io/Basic_react/ <br>
+
+-> src/components2 login session using context. <br>
+-> src/components3 and src/compnents4 Routing by react. <br>
 
 
 ## Available Scripts
@@ -16,8 +18,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.<br>
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
