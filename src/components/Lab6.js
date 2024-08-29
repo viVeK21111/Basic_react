@@ -5,7 +5,8 @@ const Lab6 = () => {
     const [weather,setWeather]=useState(null);
     const [loading,setLoading]=useState(true);
     const [error,setError] = useState(null);
-    const city="Hyderabad";
+    const [input,setInput] = useState(null);
+    const city=input;
     const apikey='a123ac364b7cd56f90e4d1329e233f8e';
     useEffect(()=> {
         const fetch = async() => {
@@ -31,12 +32,25 @@ const Lab6 = () => {
             Error fetching weather: {error.message} 
         </p>
     }
-    return (
-        <div>
-          <h2> weather in {weather.name}</h2><br></br>
-          <h3>Temperatur: {(weather.main.temp-273.15).toFixed(3)} degree celcius</h3> 
-          <p>condition: {weather.weather[0].description}</p>
-        </div>
-    );
+    if(!input) {
+        return (
+            <div>
+                <form>
+                    <lable for="name">Enter city name</lable><br></br>
+                    <input type="text" id="name" value={input} onChange={(e)=> {setInput(e.target.value)}} placeholder="Ex:New york"></input>
+                </form>
+                <button onClick={setInput(null)}>Go back</button>
+            </div>
+        )
+    }
+    else {
+        return (
+            <div>
+              <h2> weather in {weather.name}</h2><br></br>
+              <h3>Temperatur: {(weather.main.temp-273.15).toFixed(3)} degree celcius</h3> 
+              <p>condition: {weather.weather[0].description}</p>
+            </div>
+        );
+    }
 };
 export default Lab6;
