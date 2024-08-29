@@ -6,7 +6,7 @@ import {Authcontext} from './components2/Authprovider';
 
 import Login from './components2/Login';
 
-/*
+
 function App() {
   return (
     <div className='App'>
@@ -16,7 +16,6 @@ function App() {
     </div>
 )
 }
-*/
 
 
 /*
@@ -30,7 +29,7 @@ function App() {
 */
 
    
-
+/*
 import Home from './components2/Home';
 function App() {
   const {user}= useContext(Authcontext);
@@ -40,7 +39,7 @@ function App() {
     </div>
   );
 };
-
+*/
 
 
 /*
@@ -69,6 +68,7 @@ function App() {
 import Home from './components4/Home/Home'
 import Navbar from './components4/Navbar'
 import Footer from './components4/Footer'
+import Homechild from './components4/Home/Homechild';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -85,9 +85,8 @@ function App() {
     </Router>
   )
 }
-  */
 
+*/
 export default App;
-
 
 // check './components3/read.txt'
